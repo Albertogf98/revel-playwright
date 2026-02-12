@@ -1,0 +1,24 @@
+{
+    "name": "revel-playwright",
+    "version": "1.0.0",
+    "main": "",
+    "scripts": {
+        "test": "playwright test --grep \"@web | @api\" --grep-invert \"@ignored\""
+    },
+    "keywords": [
+        "qa",
+        "automation"
+    ],
+    "author": "Alberto Gandoy Florido",
+    "license": "MIT",
+    "description": "Regression suite",
+    "devDependencies": {
+        "@playwright/test": "^1.57.0",
+        "@types/node": "^25.0.3",
+        "dotenv": "^16.4.7",
+        "prettier": "3.6.2"
+    },
+    "dependencies": {
+        "chalk": "^4.1.2"
+    }
+}
